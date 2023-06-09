@@ -302,7 +302,7 @@ body {
 	content: "";
 	display: inline-block;
 	height: 12px;
-	margin-left: .6em;
+	margin-right: .6em;
 	width: 12px
 }
 
@@ -427,9 +427,9 @@ body {
 	margin-bottom: 0
 }
 
-.section__subtitle.left,
-.section__title.left {
-	text-align: left
+.section__subtitle.right,
+.section__title.right {
+	text-align: right
 }
 
 .sectionBackdropWrapper {
@@ -976,7 +976,7 @@ body {
 .formLegal {
 	display: flex;
 	flex-direction: column;
-	text-align: left
+	text-align: right
 }
 
 .formLegal>p {
@@ -1007,7 +1007,7 @@ body {
 		max-width: 400px;
 		position: absolute;
 		right: 0;
-		text-align: left;
+		text-align: right;
 		top: -11px;
 		transform: translateY(-100%)
 	}
@@ -1110,7 +1110,7 @@ body {
 .titleAlign--left>.titleWrapper>h1,
 .titleAlign--left>.titleWrapper>h2,
 .titleAlign--left>.titleWrapper>p {
-	text-align: left
+	text-align: right
 }
 
 .titleAlign--left .titleWrapper {
@@ -1175,7 +1175,7 @@ body {
 	max-width: 400px;
 	position: absolute;
 	right: 0;
-	text-align: left;
+	text-align: right;
 	top: -11px;
 	transform: translateY(-100%)
 }
@@ -2287,7 +2287,7 @@ body {
 	align-items: normal;
 	flex-direction: column;
 	padding: 0;
-	text-align: left;
+	text-align: right;
 	width: 100%
 }
 
@@ -2355,7 +2355,7 @@ body {
 	box-shadow: 0 1px 3px #00000014, 0 10px 40px -10px #00000059;
 	min-width: 160px;
 	padding: 10px 0;
-	text-align: left;
+	text-align: right;
 	white-space: nowrap;
 	z-index: 100
 }
@@ -2890,7 +2890,7 @@ body {
 }
 
 .pricingTable td:first-child {
-	text-align: left
+	text-align: right
 }
 
 .pricingTable tr:last-child td {
@@ -3775,7 +3775,7 @@ body {
 	margin: 0 30px 30px;
 	min-width: 140px;
 	padding: 0;
-	text-align: left
+	text-align: right
 }
 
 .footer--groupsTop .footer__linkGroup,
@@ -4734,7 +4734,7 @@ body {
 }
 
 .section--left .cta__titles * {
-	text-align: left
+	text-align: right
 }
 
 .cta__titles .section__subtitle {
@@ -4826,7 +4826,7 @@ body {
 	min-height: 500px;
 	min-height: var(--pdx-min-height);
 	position: relative;
-	text-align: left;
+	text-align: right;
 	width: 100vw
 }
 
@@ -4842,7 +4842,7 @@ body {
 
 .ft .section__subtitle,
 .ft .section__title {
-	text-align: left
+	text-align: right
 }
 
 .ft--bottom .hero__subtitle,
@@ -4966,7 +4966,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	max-width: calc(100% - 50px);
-	text-align: left
+	text-align: right
 }
 
 .ftPoint__title {
@@ -5263,7 +5263,7 @@ body {
 
 .post__content ol,
 .post__content ul {
-	text-align: left
+	text-align: right
 }
 
 .post__content a {
